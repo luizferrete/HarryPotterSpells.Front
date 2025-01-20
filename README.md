@@ -1,5 +1,14 @@
-# Vue 3 + TypeScript + Vite
+# HPSpells.Front
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+- Created by Luiz Augusto Ferrete (l.a.ferrete@gmail.com)
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+- LinkedIn: https://www.linkedin.com/in/luiz-augusto-ferrete-990713b8/
+
+## Setup and Usage
+
+### Prerequisites
+- Node.js installed on your machine.
+- Run npm install and npm run dev
+
+## Project Overview
+A really simple project with only a filterable table in the main page showing the Spells that were upserted in the database. It has a custom HTTP class that uses axios with a wrapper get method implemented. Routing and centralized state management were not utilized as it is not needed.
